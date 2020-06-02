@@ -2,13 +2,18 @@
     Created on : 10 mai 2020, 22:37:50
     Author     : Nem-Developping
 */
+body {
+    background-color: white;
+}
+
+
+
+
 #menuprincipal {
     background: #26C54C !important;
-    background-position: top;
     padding: 15px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 18px;
     margin-bottom: 18px;
     padding-left: 80px;
     padding-right: 80px;
@@ -19,9 +24,20 @@
 
 .navbar-brand {
     font-size: 35px !important;
+    color: gold !important;
+    font-weight: bold !important;
+    text-decoration: underline;
 }
 
 #navbarNav {
     font-family: 'Source Code Pro', monospace;
     margin-left: 30px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#banniere {
+    background-color: grey;
 }
