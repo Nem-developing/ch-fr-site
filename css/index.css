@@ -13,4 +13,15 @@
     padding-left: 80px;
     padding-right: 80px;
     border-radius: 4px;
+    font-size: 25px !important;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.navbar-brand {
+    font-size: 35px !important;
+}
+
+#navbarNav {
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 30px;
 }
