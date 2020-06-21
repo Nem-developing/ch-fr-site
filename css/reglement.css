@@ -1,0 +1,39 @@
+/* 
+    Created on : 2 juin 2020, 18:42:11
+    Author     : Nem-Developing
+*/
+
+.bd {
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 50px;
+}
+
+
+
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-pills .nav-link.active {
+    color: white !important;
+    font-weight: bolder;
+}
+
+#rules {
+    height: 360px !important;
+    overflow-y: scroll;
+    
+}
+
+.navbar-brand {
+    padding-bottom: 30px;
+    font-weight: bold;
+    text-decoration: red wavy underline;
+    font-size: 27px;
+    
+}

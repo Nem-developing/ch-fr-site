@@ -2,18 +2,13 @@
     Created on : 10 mai 2020, 22:37:50
     Author     : Nem-Developping
 */
-body {
-    background-color: white;
+
+* {
+    margin: 0!important;
 }
-
-
-
-
 #menuprincipal {
     background: #26C54C !important;
     padding: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 18px;
     padding-left: 80px;
     padding-right: 80px;
@@ -22,7 +17,7 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
-.navbar-brand {
+#titregold {
     font-size: 35px !important;
     color: gold !important;
     font-weight: bold !important;
@@ -31,13 +26,52 @@ body {
 
 #navbarNav {
     font-family: 'Source Code Pro', monospace;
-    margin-left: 30px;
+    margin-left: 30px!important;
 }
 
 .nav-link {
     color: white !important;
 }
 
-#banniere {
-    background-color: grey;
+.row {
+    margin-top: 30px !important;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#image-logo {
+    width: 100%;
+    border: solid;
+}
+
+img #image-logo {
+    text-align: center;
+}
+
+
+h1.mb-3 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.integration-discord {
+    text-align: right;
+}
+
+#image-banniere {
+    text-align: center !important;
+    width: 100%;
+}
+
+
+#discord-affichage {
+height: 535px;
+}
+
+.bd-lead {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    flex-wrap: wrap;
 }
